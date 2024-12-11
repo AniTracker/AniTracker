@@ -120,12 +120,12 @@ The **Anime & Manga Tracker App** is an iOS application designed to help anime a
 
 ### [BONUS] Digital Wireframes & Mockups
 *Include digital wireframes or mockups (e.g., using tools like Figma or Adobe XD) to provide a clearer visualization of the app's UI.*
-
+https://app.uizard.io/p/7de6e9b4
 ---
 
 ### [BONUS] Interactive Prototype
 *Link to an interactive prototype or provide an embedded version (e.g., using tools like Figma or InVision).*
-
+https://app.uizard.io/p/7de6e9b4
 ---
 
 ## Schema
