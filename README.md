@@ -48,13 +48,13 @@ These are the essential features for the app to be functional.
 - [ x] **User can view details of an anime or manga**  
   When users select an anime or manga from the search results, they should be able to view detailed information (e.g., title, description, genre, rating).
 
-- [ ] **User can rate an anime or manga**  
+- [x ] **User can rate an anime or manga**  
   Users can rate an anime or manga on a scale from 1-10 after watching or reading.
 
-- [ ] **User can add an anime to their watched list or manga to their read list**  
+- [ x] **User can add an anime to their watched list or manga to their read list**  
   Users must be able to mark anime or manga as watched or read and track their progress.
 
-- [ ] **User can view their profile with tracked anime and manga**  
+- [ x] **User can view their profile with tracked anime and manga**  
   Users must be able to see a list of all anime they have watched and manga they have read, along with their ratings and progress.
 
 ---
