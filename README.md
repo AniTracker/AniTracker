@@ -1,155 +1,144 @@
-# App Description and Product Spec
+Anime & Manga Tracker App
+Table of Contents
+Overview
+Product Spec
+Wireframes
+Schema
+Overview
+Description
+The Anime & Manga Tracker App is an iOS application designed to help anime and manga enthusiasts easily track their progress across their favorite series and volumes. The app integrates seamlessly with the MyAnimeList API, allowing users to search for anime and manga titles, view detailed descriptions, and rate their watched anime or read manga. It provides a user-friendly interface built with SwiftUI and utilizes Firebase for secure user authentication and real-time data storage.
 
-**AniTracker**
-A feature-rich iOS application designed to help anime and manga enthusiasts track their progress in a personalized and efficient way, while connecting with the global anime community. Built using SwiftUI and Firebase, this app offers seamless user experience, real-time syncing, and powerful community-building features. The app integrates with the MyAnimeList API, providing access to a vast database of anime and manga, ensuring up-to-date content and accurate tracking.
+This app is perfect for anime and manga fans who want to keep track of the anime they’ve watched and the manga they’ve read, as well as share their ratings with others in the anime community.
 
-Key Features:
-Secure User Authentication: Create and manage your personal account securely with Firebase Authentication. Your data is synced across devices, giving you access to your library and progress wherever you go.
+App Evaluation
+Category:
+Entertainment: The app is aimed at anime and manga fans, providing a streamlined way to track and explore new content.
+Mobile:
+Mobile-only: The app is designed exclusively for iOS devices, making use of mobile-specific features like authentication and real-time syncing.
+Story:
+Tracking Your Journey: The app allows users to keep track of the anime and manga they've watched or read, rate them, and discover new titles based on personal preferences.
+Market:
+Target Audience: This app targets anime and manga fans of all ages, from casual viewers to dedicated fans. It appeals to people who want to organize their media library and share recommendations.
+Habit:
+Occasional Use: Users will interact with the app periodically to add new anime or manga to their lists and update their progress.
+Scope:
+Moderate: The app is focused on tracking and rating anime and manga, with features like searching, viewing details, and sharing ratings. It does not attempt to cover the entire anime ecosystem but focuses on providing an organized way for users to manage their collections.
+Product Spec
+1. User Stories (Required and Optional)
+Required Must-have Stories
+User Authentication:
 
-Real-Time Syncing & Data Storage: Integrated with Firebase Firestore, the app ensures that your anime and manga collection and progress are updated in real-time, no matter the device you're using.
+User can securely log in using Firebase Authentication.
+User can create a new account.
+Anime/Manga Search:
 
-Efficient MVVM Architecture: The app leverages the Model-View-ViewModel (MVVM) design pattern for efficient state management, ensuring a smooth and responsive experience, even with large libraries or frequent updates.
+User can search for anime or manga titles using the MyAnimeList API.
+View Anime/Manga Details:
 
-Dynamic, User-Friendly Interface: Designed with SwiftUI, the app provides a sleek, intuitive interface, making it easy to track your watched anime, read manga, and explore new titles with ease.
+User can view detailed information about an anime or manga title, including a description, cover image, and other metadata.
+Rate Anime/Manga:
 
-API Integration with MyAnimeList: The app pulls data from the MyAnimeList API, a popular platform that offers an extensive catalog of anime and manga information. With access to MyAnimeList’s vast library, users can seamlessly add titles to their collections, track their progress, and discover new content based on their preferences. The API provides detailed information about anime series, characters, genres, episodes, reviews, and more, ensuring your tracking experience is comprehensive and up-to-date.
+User can rate anime and manga on a separate screen, based on what they've watched or read.
+Profile Management:
 
-Connecting the Anime Community: This app not only helps users track their anime and manga progress, but it also serves as a platform for anime fans to connect. Share your collection with others, get recommendations, and discuss your favorite series with a community of passionate fans from around the world.
+User can view and manage their personal profile, including their anime and manga collection and ratings.
+Optional Nice-to-have Stories
+Search History:
 
-The MyAnimeList API is a robust and widely used API that enables users to interact with one of the largest and most comprehensive anime and manga databases. It provides detailed metadata for thousands of anime and manga titles, allowing users to track what they've watched or read, manage their progress, and discover new series based on personalized recommendations. By integrating the MyAnimeList API, your app ensures that users have access to an up-to-date, expansive database to enhance their tracking experience.
+User can view a history of previously searched anime and manga titles.
+Recommendations:
 
-This app blends powerful tracking tools with social features, helping users stay organized while building connections with fellow anime fans globally.
+Based on the user’s ratings and collection, the app could suggest new anime or manga titles.
+Community Sharing:
 
---------------------------------------------
-**Product Spec**
-Here's a product specification for your anime and manga tracking app based on the template you've provided:
+Users can share their ratings and collections with others in the app.
+Review System:
 
----
+User can leave written reviews alongside ratings for anime and manga titles.
+2. Screen Archetypes
+Login Screen
+Required User Feature: User can log in or sign up using Firebase Authentication.
+Search Screen
+Required User Feature: User can search for anime and manga titles and view search results with relevant details.
+Anime Details Screen
+Required User Feature: User can view detailed information about an anime, including description, cover image, and ratings.
+Manga Details Screen
+Required User Feature: User can view detailed information about a manga, including description, cover image, and ratings.
+Rate Anime Screen
+Required User Feature: User can rate an anime title they’ve watched.
+Rate Manga Screen
+Required User Feature: User can rate a manga title they’ve read.
+Profile Screen
+Required User Feature: User can view and manage their anime and manga collections, along with their ratings and progress.
+3. Navigation
+Tab Navigation (Tab to Screen)
+Home Feed (Search Screen)
+Profile (Profile Screen)
+Flow Navigation (Screen to Screen)
+Login Screen
+→ Leads to Search Screen (After successful login)
 
-## **Product Spec for Anime & Manga Tracker App**
+Search Screen
+→ Leads to Anime Details Screen (When selecting an anime title)
+→ Leads to Manga Details Screen (When selecting a manga title)
 
-### 🎯 **A. Required and Optional Features**
+Anime Details Screen
+→ Leads to Rate Anime Screen (User rates the anime)
 
-#### **Required (Must-have) Features:**
+Manga Details Screen
+→ Leads to Rate Manga Screen (User rates the manga)
 
-1. **User Authentication:**
-   - Users must be able to securely log in to their account using Firebase Authentication.
-   - Users must be able to sign up for a new account.
+Profile Screen
+→ Leads to Search Screen (User can return to search from their profile)
 
-2. **Anime/Manga Search:**
-   - Users must be able to search for anime and manga titles by name using the MyAnimeList API.
-   - Search results must display relevant titles with information like description and image.
+Wireframes
+Insert hand-sketched wireframes here to illustrate the layout and structure of the app screens.
 
-3. **Anime/Manga Details View:**
-   - Upon selecting a title from search results, users must see a detailed view of the anime or manga, including a description, cover image, genre, and more.
+[BONUS] Digital Wireframes & Mockups
+Include digital wireframes or mockups (e.g., using tools like Figma or Adobe XD) to provide a clearer visualization of the app's UI.
 
-4. **Rate Anime and Manga:**
-   - Users must be able to rate an anime or manga title.
-   - Users must be able to submit ratings via a separate screen for anime and manga (to be accessed after viewing the anime/manga details).
+[BONUS] Interactive Prototype
+Link to an interactive prototype or provide an embedded version (e.g., using tools like Figma or InVision).
 
-5. **Profile Management:**
-   - Users must have a profile screen that displays their anime and manga collections and ratings.
+Schema
+Models
+User
+Property	Type	Description
+username	String	Unique identifier for the user
+password	String	User’s password for authentication
+email	String	User’s email address
+profilePic	String	URL to the user’s profile picture (optional)
+Anime/Manga
+Property	Type	Description
+title	String	Name of the anime or manga
+description	String	A brief description of the anime or manga
+imageURL	String	URL to the cover image of the anime or manga
+genre	String	Genre(s) of the anime or manga (e.g., action, comedy)
+rating	Float	User's rating for the anime or manga (1–10 scale)
+progress	Integer	User's progress (e.g., number of episodes watched)
+Networking
+List of Network Requests by Screen
+Login Screen
 
-#### **Optional (Nice-to-have) Features:**
+POST /auth/login — Authenticate user credentials.
+POST /auth/register — Register a new user.
+Search Screen
 
-1. **Search History:**
-   - Users could view their past search queries for convenience.
+GET /anime/search — Search for anime titles.
+GET /manga/search — Search for manga titles.
+Anime Details Screen
 
-2. **Anime/Manga Recommendations:**
-   - The app could suggest anime or manga based on user ratings or viewing history.
+GET /anime/{id} — Fetch detailed information about a selected anime.
+Manga Details Screen
 
-3. **Community Interaction:**
-   - Users could share ratings or favorite titles with other users in-app.
-   
-4. **Review System:**
-   - Users could leave written reviews on anime or manga titles, in addition to rating them.
+GET /manga/{id} — Fetch detailed information about a selected manga.
+Rate Anime Screen
 
----
+POST /anime/rate — Submit a user rating for an anime.
+Rate Manga Screen
 
-### 🎯 **B. Screens in Your App**
+POST /manga/rate — Submit a user rating for a manga.
+Profile Screen
 
-Based on the features outlined above, here are the core screens your app will have to function:
-
-1. **Login Screen:**
-   - Allows users to log in or sign up using Firebase Authentication.
-
-2. **Search Screen:**
-   - A search bar for users to input anime or manga titles.
-   - Display search results with relevant details (title, description, image).
-
-3. **Anime Details Screen:**
-   - Shows detailed information about a selected anime, including a description, image, and other metadata.
-   - Includes a button to rate the anime.
-
-4. **Manga Details Screen:**
-   - Shows detailed information about a selected manga, similar to the Anime Details Screen.
-   - Includes a button to rate the manga.
-
-5. **Rate Anime Screen:**
-   - A screen where users can submit a rating for an anime title they’ve viewed.
-
-6. **Rate Manga Screen:**
-   - A screen where users can submit a rating for a manga title they’ve read.
-
-7. **Profile Screen:**
-   - Displays a user’s profile with their list of tracked anime and manga, along with ratings.
-   - Users can see and edit their profile details.
-
----
-
-### 🎯 **C. Navigation Flow**
-
-This section defines how users will navigate between the different screens in your app.
-
-#### **Tab Navigation:**
-- **Home:** Displays the **Search** screen.
-- **Profile:** Displays the **Profile** screen where users can see their personal collection.
-  
-#### **Flow Navigation:**
-- **Login Screen**  
-   => **Search Screen** (After successful login)
-
-- **Search Screen**  
-   => **Anime Details Screen** (When a user selects an anime from search results)  
-   => **Manga Details Screen** (When a user selects a manga from search results)
-
-- **Anime Details Screen**  
-   => **Rate Anime Screen** (User navigates to rate the anime)
-
-- **Manga Details Screen**  
-   => **Rate Manga Screen** (User navigates to rate the manga)
-
-- **Profile Screen**  
-   => **Search Screen** (User can return to the search screen from their profile)
-
----
-
-### **Flow Diagram Example:**
-
-1. **Login Screen**  
-   - → **Search Screen** (after login)
-
-2. **Search Screen**  
-   - → **Anime Details Screen** (when selecting an anime title)  
-   - → **Manga Details Screen** (when selecting a manga title)
-
-3. **Anime Details Screen**  
-   - → **Rate Anime Screen** (to submit a rating for the anime)
-
-4. **Manga Details Screen**  
-   - → **Rate Manga Screen** (to submit a rating for the manga)
-
-5. **Profile Screen**  
-   - → **Search Screen** (return to the search functionality)
-
----
-
-### **Summary**
-
-- **Required Features:** User authentication, search functionality, anime/manga details, rating system, and a profile screen.
-- **Optional Features:** Search history, recommendations, community interaction, and review system.
-- **Screens:** Login, Search, Anime Details, Manga Details, Rate Anime, Rate Manga, Profile.
-- **Navigation Flow:** Uses both **Tab Navigation** (for switching between Home and Profile) and **Flow Navigation** (for transitioning between details and rating screens).
-
-This product spec outlines the core structure, features, and navigation flow for your anime and manga tracking app, providing a clear blueprint for development and design.
-
+GET /user/profile — Fetch user’s profile and collection.
+POST /user/updateProfile — Update user profile details.
