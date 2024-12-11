@@ -127,7 +127,11 @@ https://app.uizard.io/p/7de6e9b4
 
 ### [BONUS] Interactive Prototype
 
-https://app.uizard.io/p/7de6e9b4
+
+
+https://github.com/user-attachments/assets/250032ca-a6c5-46d9-b001-f883dbadcb08
+
+
 ---
 
 ## Schema
