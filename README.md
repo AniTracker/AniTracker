@@ -82,70 +82,51 @@ These features are additional enhancements that could improve user experience bu
 
 ### 2. Screen Archetypes
 
-#### **Login Screen**
-- **Required User Feature**: User can log in or sign up using Firebase Authentication.
+### **Tab Navigation (Tab to Screen)**
 
-#### **Search Screen**
-- **Required User Feature**: User can search for anime and manga titles and view search results with relevant details.
+- [ x] **Search Tab**  
+  - Leads to the **Search Screen** where users can search for anime/manga titles.
 
-#### **Anime Details Screen**
-- **Required User Feature**: User can view detailed information about an anime, including description, cover image, and ratings.
-
-#### **Manga Details Screen**
-- **Required User Feature**: User can view detailed information about a manga, including description, cover image, and ratings.
-
-#### **Rate Anime Screen**
-- **Required User Feature**: User can rate an anime title they’ve watched.
-
-#### **Rate Manga Screen**
-- **Required User Feature**: User can rate a manga title they’ve read.
-
-#### **Profile Screen**
-- **Required User Feature**: User can view and manage their anime and manga collections, along with their ratings and progress.
+- [ x] **Profile Tab**  
+  - Leads to the **Profile Screen** where users can view their tracked anime/manga.
 
 ---
 
-### 3. Navigation
+### **Flow Navigation (Screen to Screen)**
 
-#### **Tab Navigation (Tab to Screen)**
+- [ x] **Login Screen**  
+  - Leads to **Home (Search Screen)** after successful login.
 
-- **Home Feed** (Search Screen)
-- **Profile** (Profile Screen)
+- [ x] **Registration Screen**  
+  - Leads to **Home (Search Screen)** after successful registration.
 
-#### **Flow Navigation (Screen to Screen)**
+- [ x] **Search Screen**  
+  - Leads to **Anime Detail Screen** or **Manga Detail Screen** after selecting an anime/manga.
 
-- **Login Screen**  
-  → Leads to **Search Screen** (After successful login)
+- [x ] **Anime Detail Screen**  
+  - Leads back to **Search Screen**.
 
-- **Search Screen**  
-  → Leads to **Anime Details Screen** (When selecting an anime title)  
-  → Leads to **Manga Details Screen** (When selecting a manga title)
+- [x ] **Manga Detail Screen**  
+  - Leads back to **Search Screen**.
 
-- **Anime Details Screen**  
-  → Leads to **Rate Anime Screen** (User rates the anime)
-
-- **Manga Details Screen**  
-  → Leads to **Rate Manga Screen** (User rates the manga)
-
-- **Profile Screen**  
-  → Leads to **Search Screen** (User can return to search from their profile)
+- [ x] **Profile Screen**  
+  - Leads back to **Search Screen** or other app screens.
 
 ---
 
 ## Wireframes
 
-*Insert hand-sketched wireframes here to illustrate the layout and structure of the app screens.*
 [Adobe Scan Dec 10, 2024.pdf](https://github.com/user-attachments/files/18089693/Adobe.Scan.Dec.10.2024.pdf)
 
 ---
 
 ### [BONUS] Digital Wireframes & Mockups
-*Include digital wireframes or mockups (e.g., using tools like Figma or Adobe XD) to provide a clearer visualization of the app's UI.*
+
 https://app.uizard.io/p/7de6e9b4
 ---
 
 ### [BONUS] Interactive Prototype
-*Link to an interactive prototype or provide an embedded version (e.g., using tools like Figma or InVision).*
+
 https://app.uizard.io/p/7de6e9b4
 ---
 
