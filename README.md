@@ -185,7 +185,7 @@ https://app.uizard.io/p/7de6e9b4
   - **POST** `/user/updateProfile` — Update user profile details.
 
 ---
-
+**AMS currently name of the app for now for now until app is fully completed. Stands for Anime Manga Search
 Sprint 1 Building Progress: Sign in and Sign up view implemented and data is seen in Firebase
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/161c860b-8c7e-495e-9df9-1f09cfae7b74)
