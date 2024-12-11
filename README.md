@@ -115,6 +115,7 @@ The **Anime & Manga Tracker App** is an iOS application designed to help anime a
 ## Wireframes
 
 *Insert hand-sketched wireframes here to illustrate the layout and structure of the app screens.*
+[Adobe Scan Dec 10, 2024.pdf](https://github.com/user-attachments/files/18089693/Adobe.Scan.Dec.10.2024.pdf)
 
 ---
 
