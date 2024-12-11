@@ -36,7 +36,7 @@ The **Anime & Manga Tracker App** is an iOS application designed to help anime a
 #### **Required Must-have Stories**  
 These are the essential features for the app to be functional.
 
-- [ ] **User can register an account**  
+- [ x] **User can register an account**  
   Users must be able to sign up for an account using an email and password.
 
 - [ x] **User can log in to the app**  
@@ -45,7 +45,7 @@ These are the essential features for the app to be functional.
 - [ x] **User can search for anime and manga by title**  
   Users must be able to enter a search query and view results for anime and manga titles.
 
-- [ ] **User can view details of an anime or manga**  
+- [ x] **User can view details of an anime or manga**  
   When users select an anime or manga from the search results, they should be able to view detailed information (e.g., title, description, genre, rating).
 
 - [ ] **User can rate an anime or manga**  
@@ -74,7 +74,7 @@ These features are additional enhancements that could improve user experience bu
 - [ ] **User can see notifications when new episodes/chapter are available**  
   Users can opt-in to receive notifications when a new episode or chapter of a tracked anime/manga is released.
 
-- [ ] **User can tap on a manga/anime title to view more detailed information**  
+- [x ] **User can tap on a manga/anime title to view more detailed information**  
   Users can navigate to a dedicated page that shows more in-depth information about each anime or manga title, such as staff credits, publisher, and episode/chapter guides.
 
 
