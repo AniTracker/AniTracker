@@ -186,4 +186,10 @@ https://app.uizard.io/p/7de6e9b4
 
 ---
 
-This **README** provides a comprehensive and organized overview of your Anime & Manga Tracker app. It includes essential information on the app's structure, user stories, navigation flow, and networking, as well as details about wireframes and schema. The markdown format is clean and easily readable, ensuring developers and stakeholders can understand the app's functionality and structure at a glance.
+Sprint 1 Building Progress: Sign in and Sign up view implemented and data is seen in Firebase
+
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/161c860b-8c7e-495e-9df9-1f09cfae7b74)
+
+Sprint 2: The profile view follows successful login by the user and users are able to search for their favorite animes
+
+![ScreenRecording2024-12-11at12 06 26AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cb535019-a409-48ef-9d21-1f2703549905)
