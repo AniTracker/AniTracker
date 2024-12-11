@@ -188,6 +188,8 @@ https://app.uizard.io/p/7de6e9b4
 **AMS currently name of the app for now for now until app is fully completed. Stands for Anime Manga Search
 Sprint 1 Building Progress: Sign in and Sign up view implemented and data is seen in Firebase
 
+**Cat in logo resembles cat from anime movie spirited away
+
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/161c860b-8c7e-495e-9df9-1f09cfae7b74)
 
 Sprint 2: The profile view follows successful login by the user and users are able to search for their favorite animes
