@@ -1,4 +1,4 @@
-# App Description and Spec
+# App Description and Product Spec
 
 **AniTracker**
 A feature-rich iOS application designed to help anime and manga enthusiasts track their progress in a personalized and efficient way, while connecting with the global anime community. Built using SwiftUI and Firebase, this app offers seamless user experience, real-time syncing, and powerful community-building features. The app integrates with the MyAnimeList API, providing access to a vast database of anime and manga, ensuring up-to-date content and accurate tracking.
