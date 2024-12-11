@@ -192,6 +192,20 @@ Sprint 1 Building Progress: Sign in and Sign up view implemented and data is see
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/161c860b-8c7e-495e-9df9-1f09cfae7b74)
 
+Sprint 1: Improved
+
+
+https://github.com/user-attachments/assets/ad17a581-07a7-4eb7-84cb-40d8803f74d2
+
+
+
 Sprint 2: The profile view follows successful login by the user and users are able to search for their favorite animes
 
 ![ScreenRecording2024-12-11at12 06 26AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cb535019-a409-48ef-9d21-1f2703549905)
+
+Sprint 2: Improved
+
+https://github.com/user-attachments/assets/4be0a462-85ed-4c87-ae65-35cfc8274f64
+
+
+
