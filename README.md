@@ -33,30 +33,50 @@ The **Anime & Manga Tracker App** is an iOS application designed to help anime a
 
 ## Product Spec
 
-### 1. User Stories
+#### **Required Must-have Stories**  
+These are the essential features for the app to be functional.
 
-#### **Required Must-have Stories**
-1. **User Authentication:**
-   - User can securely log in using Firebase Authentication.
-   - User can create a new account.
-2. **Anime/Manga Search:**
-   - User can search for anime or manga titles using the MyAnimeList API.
-3. **View Anime/Manga Details:**
-   - User can view detailed information about an anime or manga title, including a description, cover image, and other metadata.
-4. **Rate Anime/Manga:**
-   - User can rate anime and manga on a separate screen, based on what they've watched or read.
-5. **Profile Management:**
-   - User can view and manage their personal profile, including their anime and manga collection and ratings.
+- [ ] **User can register an account**  
+  Users must be able to sign up for an account using an email and password.
 
-#### **Optional Nice-to-have Stories**
-1. **Search History:**
-   - User can view a history of previously searched anime and manga titles.
-2. **Recommendations:**
-   - Based on the user’s ratings and collection, the app could suggest new anime or manga titles.
-3. **Community Sharing:**
-   - Users can share their ratings and collections with others in the app.
-4. **Review System:**
-   - User can leave written reviews alongside ratings for anime and manga titles.
+- [ x] **User can log in to the app**  
+  Users must be able to log in to the app after registering, with email/password authentication.
+
+- [ x] **User can search for anime and manga by title**  
+  Users must be able to enter a search query and view results for anime and manga titles.
+
+- [ ] **User can view details of an anime or manga**  
+  When users select an anime or manga from the search results, they should be able to view detailed information (e.g., title, description, genre, rating).
+
+- [ ] **User can rate an anime or manga**  
+  Users can rate an anime or manga on a scale from 1-10 after watching or reading.
+
+- [ ] **User can add an anime to their watched list or manga to their read list**  
+  Users must be able to mark anime or manga as watched or read and track their progress.
+
+- [ ] **User can view their profile with tracked anime and manga**  
+  Users must be able to see a list of all anime they have watched and manga they have read, along with their ratings and progress.
+
+---
+
+#### **Optional Nice-to-have Stories**  
+These features are additional enhancements that could improve user experience but are not essential for the core functionality.
+
+- [ ] **User can see their progress over time**  
+  Display stats like the total number of anime watched or manga chapters read, and show a percentage of progress for each title.
+
+- [ ] **User can see trending anime and manga**  
+  Display a list of currently popular or trending anime and manga based on ratings or recent views.
+
+- [ ] **User can share anime or manga titles on social media**  
+  Users should be able to share their favorite titles with friends via social media platforms.
+
+- [ ] **User can see notifications when new episodes/chapter are available**  
+  Users can opt-in to receive notifications when a new episode or chapter of a tracked anime/manga is released.
+
+- [ ] **User can tap on a manga/anime title to view more detailed information**  
+  Users can navigate to a dedicated page that shows more in-depth information about each anime or manga title, such as staff credits, publisher, and episode/chapter guides.
+
 
 ---
 
